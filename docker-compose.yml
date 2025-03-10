@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+  pusat-pelatihan-k3:
+    build: .
+    container_name: pusat-pelatihan-k3
+    ports:
+      - "8010:8010"
+      - "9010:9010"
+    volumes:
+      - ./:/var/www
+      - storage:/var/www/storage
+      - bootstrap_cache:/var/www/bootstrap/cache
+    environment:
+      - APP_NAME=PusatPelatihanK3
+      - DB_CONNECTION=mysql
+      - DB_HOST=pusat-pelatihan-k3-db
+      - DB_PORT=3306
+      - DB_DATABASE=pusatpelatihank3
+      - DB_USERNAME=adminpusatk3
+      - DB_PASSWORD=securepass123
+    depends_on:
+      - pusat-pelatihan-k3-db
+    restart: unless-stopped
+    networks:
+      - pusat-pelatihan-k3
+
+  pusat-pelatihan-k3-db:
+    image: mysql:8.0
+    container_name: pusat-pelatihan-k3-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: pusatpelatihank3
+      MYSQL_USER: adminpusatk3
+      MYSQL_PASSWORD: securepass123
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - pusat-pelatihan-k3
+
+volumes:
+  mysql_data:
+  storage:
+  bootstrap_cache:
+
+networks:
+  pusat-pelatihan-k3:
+

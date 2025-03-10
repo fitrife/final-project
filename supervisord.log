@@ -1,0 +1,79 @@
+2025-03-08 16:27:53,037 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-08 16:27:53,040 INFO supervisord started with pid 1
+2025-03-08 16:27:54,047 INFO spawned: 'laravel' with pid 7
+2025-03-08 16:27:54,064 INFO spawned: 'php-fpm' with pid 8
+2025-03-08 16:27:55,994 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 16:27:55,994 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 16:32:48,074 WARN received SIGQUIT indicating exit request
+2025-03-08 16:32:48,074 INFO waiting for laravel, php-fpm to die
+2025-03-08 16:32:48,396 INFO stopped: php-fpm (exit status 0)
+2025-03-08 16:32:48,401 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-08 16:32:50,173 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-08 16:32:50,178 INFO supervisord started with pid 1
+2025-03-08 16:32:51,184 INFO spawned: 'laravel' with pid 7
+2025-03-08 16:32:51,187 INFO spawned: 'php-fpm' with pid 8
+2025-03-08 16:32:52,913 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 16:32:52,914 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 16:43:31,606 INFO reaped unknown pid 67 (terminated by SIGKILL)
+2025-03-08 16:43:31,628 INFO reaped unknown pid 66 (terminated by SIGKILL)
+2025-03-08 16:58:34,291 INFO reaped unknown pid 349 (terminated by SIGKILL)
+2025-03-08 16:59:46,372 INFO reaped unknown pid 350 (terminated by SIGKILL)
+2025-03-08 16:59:46,373 INFO reaped unknown pid 348 (terminated by SIGKILL)
+2025-03-08 17:13:56,633 INFO reaped unknown pid 461 (terminated by SIGKILL)
+2025-03-08 17:13:56,664 INFO reaped unknown pid 460 (terminated by SIGKILL)
+2025-03-08 17:22:41,186 INFO reaped unknown pid 927 (terminated by SIGKILL)
+2025-03-08 17:22:41,187 INFO reaped unknown pid 928 (terminated by SIGKILL)
+2025-03-08 17:22:41,187 INFO reaped unknown pid 929 (terminated by SIGKILL)
+2025-03-08 17:23:14,224 INFO reaped unknown pid 930 (terminated by SIGKILL)
+2025-03-08 17:23:26,237 INFO reaped unknown pid 931 (terminated by SIGKILL)
+2025-03-08 17:23:26,237 INFO reaped unknown pid 926 (terminated by SIGKILL)
+2025-03-08 17:24:52,330 INFO reaped unknown pid 942 (terminated by SIGKILL)
+2025-03-08 17:24:52,330 INFO reaped unknown pid 941 (terminated by SIGKILL)
+2025-03-08 17:29:37,368 INFO reaped unknown pid 962 (terminated by SIGKILL)
+2025-03-08 17:29:37,368 INFO reaped unknown pid 961 (terminated by SIGKILL)
+2025-03-08 17:33:55,941 INFO reaped unknown pid 983 (terminated by SIGKILL)
+2025-03-08 17:33:55,955 INFO reaped unknown pid 982 (terminated by SIGKILL)
+2025-03-08 17:34:00,980 WARN received SIGQUIT indicating exit request
+2025-03-08 17:34:01,140 INFO waiting for laravel, php-fpm to die
+2025-03-08 17:34:01,913 INFO stopped: php-fpm (exit status 0)
+2025-03-08 17:34:01,955 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-08 17:34:06,303 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-08 17:34:06,309 INFO supervisord started with pid 1
+2025-03-08 17:34:07,311 INFO spawned: 'laravel' with pid 7
+2025-03-08 17:34:07,317 INFO spawned: 'php-fpm' with pid 8
+2025-03-08 17:34:09,019 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 17:34:09,019 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 17:35:55,585 WARN received SIGQUIT indicating exit request
+2025-03-08 17:35:55,585 INFO waiting for laravel, php-fpm to die
+2025-03-08 17:35:55,591 INFO stopped: php-fpm (exit status 0)
+2025-03-08 17:35:55,594 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-08 17:35:56,404 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-08 17:35:56,406 INFO supervisord started with pid 1
+2025-03-08 17:35:57,409 INFO spawned: 'laravel' with pid 6
+2025-03-08 17:35:57,413 INFO spawned: 'php-fpm' with pid 7
+2025-03-08 17:35:59,072 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 17:35:59,072 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 17:55:31,214 INFO reaped unknown pid 101 (exit status 0)
+2025-03-08 18:01:20,235 WARN received SIGQUIT indicating exit request
+2025-03-08 18:01:20,235 INFO waiting for laravel, php-fpm to die
+2025-03-08 18:01:20,247 INFO stopped: php-fpm (exit status 0)
+2025-03-08 18:01:20,252 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-08 18:01:21,173 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-08 18:01:21,175 INFO supervisord started with pid 1
+2025-03-08 18:01:22,178 INFO spawned: 'laravel' with pid 7
+2025-03-08 18:01:22,181 INFO spawned: 'php-fpm' with pid 8
+2025-03-08 18:01:23,833 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-08 18:01:23,833 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-09 05:47:22,882 INFO reaped unknown pid 70 (terminated by SIGKILL)
+2025-03-09 05:51:36,224 INFO reaped unknown pid 71 (terminated by SIGINT)
+2025-03-09 05:51:36,225 INFO reaped unknown pid 69 (terminated by SIGKILL)
+2025-03-09 05:51:36,225 INFO reaped unknown pid 72 (terminated by SIGINT)
+2025-03-09 05:51:41,230 INFO reaped unknown pid 73 (terminated by SIGINT)
+2025-03-09 05:52:41,294 INFO reaped unknown pid 78 (terminated by SIGKILL)
+2025-03-09 05:52:42,296 INFO reaped unknown pid 79 (terminated by SIGKILL)
+2025-03-09 05:52:42,296 INFO reaped unknown pid 80 (terminated by SIGKILL)
+2025-03-09 05:52:42,296 INFO reaped unknown pid 81 (terminated by SIGKILL)
+2025-03-09 06:15:16,457 INFO reaped unknown pid 84 (terminated by SIGINT)
+2025-03-09 06:15:16,457 INFO reaped unknown pid 87 (terminated by SIGINT)
+2025-03-09 06:15:16,457 INFO reaped unknown pid 77 (terminated by SIGKILL)
+2025-03-09 06:15:17,459 INFO reaped unknown pid 88 (terminated by SIGINT)
