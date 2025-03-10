@@ -13,6 +13,18 @@ jobs:
       matrix:
         php-version: [8.3]
 
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_DATABASE: pusatpelatihank3
+          MYSQL_USER: adminpusatk3
+          MYSQL_PASSWORD: securepass123
+          MYSQL_ROOT_PASSWORD: rootpassword
+        ports:
+          - 3306:3306
+        options: --health-cmd="mysqladmin ping --host=127.0.0.1 --user=adminpusatk3 --password=securepass123" --health-interval=10s --health-timeout=5s --health-retries=3
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
@@ -32,6 +44,21 @@ jobs:
         php artisan key:generate
         php artisan config:clear
         php artisan cache:clear
+
+        # Konfigurasi database untuk GitHub Actions
+        echo "DB_CONNECTION=mysql" >> .env
+        echo "DB_HOST=127.0.0.1" >> .env
+        echo "DB_PORT=3306" >> .env
+        echo "DB_DATABASE=pusatpelatihank3" >> .env
+        echo "DB_USERNAME=adminpusatk3" >> .env
+        echo "DB_PASSWORD=securepass123" >> .env
+        echo "DB_SOCKET=" >> .env  # Pastikan MySQL tidak menggunakan socket default
+
+    - name: Tunggu MySQL Siap
+      run: sleep 15  # Memberikan waktu agar MySQL bisa benar-benar siap
+
+    - name: Run Migrations
+      run: php artisan migrate --force  # Jalankan migrasi sebelum testing
 
     - name: Run Tests
       run: vendor/bin/phpunit
