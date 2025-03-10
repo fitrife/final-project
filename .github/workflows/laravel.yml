@@ -36,7 +36,6 @@ jobs:
 
     - name: Run Tests
       run: |
-        cd pusat-pelatihan-k3
         vendor/bin/phpunit
 
   deploy-staging:
