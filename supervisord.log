@@ -77,3 +77,57 @@
 2025-03-09 06:15:16,457 INFO reaped unknown pid 87 (terminated by SIGINT)
 2025-03-09 06:15:16,457 INFO reaped unknown pid 77 (terminated by SIGKILL)
 2025-03-09 06:15:17,459 INFO reaped unknown pid 88 (terminated by SIGINT)
+2025-03-10 14:08:58,939 WARN received SIGQUIT indicating exit request
+2025-03-10 14:08:59,168 INFO waiting for laravel, php-fpm to die
+2025-03-10 14:09:00,419 INFO stopped: php-fpm (exit status 0)
+2025-03-10 14:09:00,534 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-10 14:09:24,624 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-10 14:09:24,630 INFO supervisord started with pid 1
+2025-03-10 14:09:25,633 INFO spawned: 'laravel' with pid 8
+2025-03-10 14:09:25,637 INFO spawned: 'php-fpm' with pid 9
+2025-03-10 14:09:26,640 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-10 14:09:26,640 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-10 14:50:25,510 WARN received SIGQUIT indicating exit request
+2025-03-10 14:50:25,566 INFO waiting for laravel, php-fpm to die
+2025-03-10 14:50:25,612 INFO stopped: php-fpm (exit status 0)
+2025-03-10 14:50:25,637 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-10 14:50:31,478 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-10 14:50:31,484 INFO supervisord started with pid 1
+2025-03-10 14:50:32,488 INFO spawned: 'laravel' with pid 7
+2025-03-10 14:50:32,493 INFO spawned: 'php-fpm' with pid 8
+2025-03-10 14:50:33,954 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-10 14:50:33,955 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-11 03:43:44,029 WARN received SIGQUIT indicating exit request
+2025-03-11 03:43:44,265 INFO waiting for laravel, php-fpm to die
+2025-03-11 03:43:45,947 INFO stopped: php-fpm (exit status 0)
+2025-03-11 03:43:46,350 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-11 03:43:54,222 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-11 03:43:54,237 INFO supervisord started with pid 1
+2025-03-11 03:43:55,240 INFO spawned: 'laravel' with pid 7
+2025-03-11 03:43:55,247 INFO spawned: 'php-fpm' with pid 8
+2025-03-11 03:43:56,347 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-11 03:43:56,348 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-11 13:41:51,048 WARN received SIGQUIT indicating exit request
+2025-03-11 13:41:51,062 INFO waiting for laravel, php-fpm to die
+2025-03-11 13:41:51,388 INFO stopped: php-fpm (exit status 0)
+2025-03-11 13:41:51,404 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-11 13:41:55,737 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-11 13:41:55,759 INFO supervisord started with pid 1
+2025-03-11 13:41:56,770 INFO spawned: 'laravel' with pid 6
+2025-03-11 13:41:56,774 INFO spawned: 'php-fpm' with pid 7
+2025-03-11 13:41:57,967 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-11 13:41:57,967 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-11 13:47:36,496 WARN received SIGQUIT indicating exit request
+2025-03-11 13:47:36,557 INFO waiting for laravel, php-fpm to die
+2025-03-11 13:47:37,243 INFO stopped: php-fpm (exit status 0)
+2025-03-11 13:47:38,250 WARN stopped: laravel (terminated by SIGTERM)
+2025-03-11 13:47:39,899 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-03-11 13:47:39,903 INFO supervisord started with pid 1
+2025-03-11 13:47:40,906 INFO spawned: 'laravel' with pid 7
+2025-03-11 13:47:40,909 INFO spawned: 'php-fpm' with pid 8
+2025-03-11 13:47:42,173 INFO success: laravel entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-11 13:47:42,173 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-03-11 13:49:39,319 WARN received SIGQUIT indicating exit request
+2025-03-11 13:49:39,320 INFO waiting for laravel, php-fpm to die
+2025-03-11 13:49:39,326 INFO stopped: php-fpm (exit status 0)
+2025-03-11 13:49:40,331 WARN stopped: laravel (terminated by SIGTERM)

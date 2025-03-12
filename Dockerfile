@@ -34,11 +34,11 @@ RUN composer install --prefer-dist --no-dev --optimize-autoloader --ignore-platf
 RUN chown -R www-data:www-data storage bootstrap/cache
 
 # Expose port untuk PHP-FPM dan Laravel
-EXPOSE 9010 8010
+EXPOSE 8010
 
 # Salin konfigurasi Supervisor
-COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+#COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # Jalankan Supervisor untuk mengelola proses
-CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
-
+#CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8010"]
